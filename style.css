@@ -221,7 +221,7 @@ main{
 
 .plan-summary-content{
     
-    border: 1px solid red;
+   
     flex-grow: 1;
     margin-right: 30px;
    width: 100%;
@@ -253,7 +253,7 @@ line-height: normal;
     margin: 16px 0px;
     display: flex;
     align-items: center;
-    border: 1px solid red;
+ 
     
 }
 .sumarry-details{
@@ -558,7 +558,7 @@ padding-bottom: 30px;
     line-height: 35px;
 }
 .plan-content{
-    border:1px solid red ;
+ padding-right: 20px;
 }
 
 .plan-box{
@@ -1079,7 +1079,7 @@ font-weight: 400px;
     }
 
     .booking-container{
-        background-color: rgb(24, 226, 165);
+       
          padding: 0px;
     }
 
