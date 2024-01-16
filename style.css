@@ -213,16 +213,19 @@ main{
 }
 .plan-summary-container{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
 
 .plan-summary-content{
     
-   
+    border: 1px solid red;
     flex-grow: 1;
     margin-right: 30px;
    width: 100%;
+   
 }
 
 .sumarry-title{
@@ -250,6 +253,7 @@ line-height: normal;
     margin: 16px 0px;
     display: flex;
     align-items: center;
+    border: 1px solid red;
     
 }
 .sumarry-details{
@@ -275,6 +279,7 @@ line-height: normal;
 .plan-summary-image{
     flex-grow: 1;
     width: 100%;
+    border: 1px solid yellow;
 }
 .plan-summary-image img{
     width: 100%;;
@@ -354,7 +359,10 @@ border-radius: 10px;
     width: 100%;
     height: 300px;
 flex-shrink: 0;
+
 position: relative;
+box-shadow: rgba(99, 99, 99, 0.6) 0px 2px 8px 0px;
+border-radius: 15px;
 
  }
  
@@ -363,7 +371,8 @@ position: relative;
     width: 100%;
     height: 300px;
     position: relative;
-
+    box-shadow: rgba(99, 99, 99, 0.6) 0px 2px 8px 0px;
+    border-radius: 15px;
 flex-shrink: 0;
  }
 
@@ -372,6 +381,8 @@ flex-shrink: 0;
     height: 300px;
     position: relative;
     grid-column: 1/ span 3;
+    box-shadow: rgba(99, 99, 99, 0.6) 0px 2px 8px 0px;
+border-radius: 15px;
   
  }
  .box4{
@@ -379,24 +390,33 @@ flex-shrink: 0;
     height: 300px;
     position: relative;
     grid-column: 4/ span 7;
+    box-shadow: rgba(99, 99, 99, 0.6) 0px 2px 8px 0px;
+border-radius: 15px;
  }
  .box5{
     width: 100%;
     height: 300px;
     position: relative;
+
     grid-column: 11/ span 3;
+    box-shadow: rgba(99, 99, 99, 0.6) 0px 2px 8px 0px;
+border-radius: 15px;
  }
  .box6{
     width: 100%;
     height: 300px;
     position: relative;
     grid-column: 1/ span 5;
+    box-shadow: rgba(99, 99, 99, 0.6) 0px 2px 8px 0px;
+border-radius: 15px;
  }
  .box7{
     width: 100%;
     height: 300px;
     position: relative;
     grid-column: 6/ span 8;
+    box-shadow: rgba(99, 99, 99, 0.6) 0px 2px 8px 0px;
+border-radius: 15px;
  }
 
  .poland,.maldives,.northway,.america,.nepal,.bandarbon,.bangladesh{
@@ -491,7 +511,7 @@ background: rgba(41, 206, 246, 0.05);
     
 }
 
-.icon .fa-hotel{
+.icon img{
 color:rgb(61, 144, 17);
 display: block;
 
@@ -499,20 +519,6 @@ font-size: 50px;
 margin:10px 0px 20px 0px; 
 }
 
-.icon .fa-map-location-dot{
-    color:rgb(197, 213, 189);
-    display: block;
-    
-    font-size: 50px;
-    margin:10px 0px 20px 0px; 
-}
-.icon .fa-money-check-dollar{
-    color:rgb(110, 109, 107);
-    display: block;
-    
-    font-size: 50px;
-    margin:10px 0px 20px 0px; 
-}
 
 .content-head{
     color: #131318;
@@ -551,6 +557,21 @@ padding-bottom: 30px;
     font-family: 'Roboto';
     line-height: 35px;
 }
+.plan-content{
+    border:1px solid red ;
+}
+
+.plan-box{
+
+    padding: 15px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.332);
+    background-color: rgba(240, 248, 255, 0.462);
+    margin: 16px 0px;
+    display: flex;
+    align-items: center;
+    
+
+}
 .plan-info-video{
     width: 100%;
 
@@ -582,7 +603,7 @@ padding-bottom: 30px;
     background: white;
     padding: 20px;
     display: flex;
-  
+    box-shadow: rgba(99, 99, 99, 0.5) 0px 2px 8px 0px;
     justify-content: center;
     flex-direction: column;
     padding-bottom: 30px;
@@ -706,6 +727,9 @@ footer{
     align-items: center;
     justify-content: center;
 }
+
+
+/* vacation */
 .vacation-text{
     color:white;
 }
@@ -798,7 +822,7 @@ line-height: normal;
     display: flex;
    justify-content: space-between;
     border: 1px solid rgba(128, 128, 128, 0.442);
-   
+    box-shadow: rgba(99, 99, 99, 0.4) 0px 2px 8px 0px;
     height:250px;
     border-radius: 15px;
     
@@ -808,13 +832,13 @@ line-height: normal;
 
 .sport-img{
     width:100%;
-    height: 100%;
+    height:100%;
 
 }
 .sport-img img{
     width:100%;
     height:100%;
-    border-radius: 15px;
+    
 }
 
 
@@ -966,6 +990,8 @@ font-weight: 400px;
     }
     .plan-summary-content{
         margin-bottom: 20px;
+        border: 1px solid red;;
+       
     }
 
     .image-container{
@@ -1000,6 +1026,7 @@ font-weight: 400px;
     /* news  */
     .news-box{
         padding-bottom: 20px;
+        box-shadow: rgba(99, 99, 99, 0.5) 0px 2px 8px 0px;
     }
     .news-image{
          margin-top: 10px;
@@ -1036,3 +1063,40 @@ font-weight: 400px;
 
     
 }
+
+
+
+
+
+@media screen and (min-width:601px)and (max-width:992px){
+
+    main{
+        padding: 0px 5px;
+    }
+    .header{
+    
+      padding:0px 5px;
+    }
+
+    .booking-container{
+        background-color: rgb(24, 226, 165);
+         padding: 0px;
+    }
+
+    .plan-summary-container{
+        background-color: green;
+        padding:10px;
+    }
+    .sport-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    /* .sport-box{
+        height:300px;;
+    } */
+
+    .sport-content{
+        padding: 20px 20px;
+    }
+    
+  }
+  
