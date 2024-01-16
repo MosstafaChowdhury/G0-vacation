@@ -1,0 +1,1010 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    ;
+}
+
+
+.header{
+    max-width: 1250px;
+    margin: 0px auto;
+    background-color: white;
+}
+
+
+nav{
+    display: flex;
+  
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 20px 0px;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+  
+}
+
+.vacation{
+    padding-left: 20px;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+
+.vacation-go{
+    
+    text-transform: capitalize;
+    font-size: 22px;
+    padding: 0px 5px;
+    color: rgb(243, 113, 7);;
+}
+
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    text-decoration: none;
+    padding: 15px;
+    background-color:rgba(255, 68, 0, 0.671);
+    margin-left:2px;
+}
+.ham-burg{
+    display: none;
+}
+.ham-burg .fa-bars{
+    font-size: 15px;
+    color: rgb(243, 19, 19);
+    
+ 
+}
+ul li a{
+    color:black;;
+    text-decoration: none;
+    text-transform: capitalize;
+  
+
+}
+
+
+/* banner-section strat   =================================================== */
+
+
+.banner{
+    border-radius: 16px;
+background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url("./Images/Group\ 13\ \(1\)\ \(1\).png");
+    
+     max-width: 1250px;
+     height:600px;;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+
+
+
+.banner-title{
+    color: #FFF;
+   text-align: center;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 30px 0px;
+}
+.banner-pera{
+    color: #FFF;
+
+text-align: center;
+font-family: Mulish;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+padding-bottom: 30px 
+}
+
+
+.booking-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     padding: 10px 30px;
+     margin-top: 10px;
+     border-radius: 8px;
+     background: rgba(255, 255, 255, 0.30);
+   
+}
+
+.booking-container .book{
+width:200px;
+height: 52px;
+border-radius: 8px;
+background-color: #FFF;
+text-transform: capitalize;
+color: rgb(127, 84, 84);
+flex-shrink: 0;
+
+align-items: center;
+display: flex;
+justify-content: space-evenly;
+margin: 0px 5px;
+display: flex;
+justify-content: space-around;
+
+;
+
+
+}
+
+
+
+.booking-container .book input{
+    border: none;
+    outline: none;
+    width: 80%;
+    
+    text-transform: capitalize;
+  
+}
+
+.booking-container .book input ::placeholder{
+
+}
+select{
+    border:none;;
+    outline: none;
+}
+
+.booking-container .book:nth-child(4){
+background: orangered;
+
+}
+
+.find-box{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.find-box .fa-magnifying-glass{
+    color:white;
+    font-size: 18px;
+    padding: 0px 5px;
+}
+.find-box .find-text{
+    color: #FFF;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    
+}
+
+/* main  ********************************************************************************/
+main{
+    max-width: 1250px;
+    margin: 0px auto;
+}
+
+/* plan summary  ******************************************************/
+.plan-summary{
+    padding: 50px 0px;
+    background-color: #FFF;
+  
+}
+.plan-summary-container{
+    display: flex;
+}
+
+
+
+.plan-summary-content{
+    
+   
+    flex-grow: 1;
+    margin-right: 30px;
+   width: 100%;
+}
+
+.sumarry-title{
+    color: #131318;
+
+
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+
+.summary-discription{
+    padding: 30px 0px;
+}
+.summary-box{
+    padding: 15px 20px;
+    border: 1px solid black;
+    margin: 16px 0px;
+}
+.sumarry-details{
+     padding: 30px 0px;
+}
+.readmore-btn{
+ 
+    text-align: center;
+    border: none;
+    background-color: orangered;;
+    color:white;
+    padding:10px 30px;
+
+     position: relative;
+     margin-top: 60px;
+     text-transform: uppercase;
+}
+.plan-summary-image{
+    flex-grow: 1;
+    width: 100%;
+}
+.plan-summary-image img{
+    width: 100%;;
+} 
+ /* destination    ********************************************************/
+ .destination{
+
+    padding: 50px 0px;
+ }
+
+ .destination-heading{
+    max-width: 700px;
+    margin: 0px auto;
+    
+     margin-bottom: 30px;
+ }
+
+ .destination-title {
+    color: #131318;
+  
+    color: #131318;
+    
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: capitalize;
+    line-height: normal;
+    padding: 10px 0px;
+  
+ }
+
+ .destination-discription{
+    
+   
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+
+ }
+
+
+
+ .image-container{
+   
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    
+    row-gap: 10px;
+    column-gap: 10px;
+    
+     
+    
+ }
+ .box img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 10px;
+
+ }
+
+ .box1{
+    grid-column: 1/ span 6;
+    width: 100%;
+    height: 300px;
+flex-shrink: 0;
+position: relative;
+
+ }
+ 
+ .box2{
+    grid-column: 7/ span 7;
+    width: 100%;
+    height: 300px;
+    position: relative;
+
+flex-shrink: 0;
+ }
+
+ .box3{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    grid-column: 1/ span 3;
+  
+ }
+ .box4{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    grid-column: 4/ span 7;
+ }
+ .box5{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    grid-column: 11/ span 3;
+ }
+ .box6{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    grid-column: 1/ span 5;
+ }
+ .box7{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    grid-column: 6/ span 8;
+ }
+
+ .poland,.maldives,.northway,.america,.nepal,.bandarbon,.bangladesh{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    top:0;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
+    text-transform: capitalize;
+    font-size: 25px;
+    border-radius: 10px;
+    color:white;
+ }
+
+
+
+ /* about section  ********************************************************** */
+.about{
+    padding: 40px 0px;
+    background: #FFF;
+}
+
+.about-heading{
+    max-width: 700px;
+    margin: 0px auto;
+ 
+     margin-bottom: 40px;
+     padding: 10px 0px;
+ }
+
+ .about-title{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-bottom: 20px;
+ }
+.about-discription{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+.about-container{
+   
+   max-width: 1250px;
+  display: grid;
+  
+  grid-template-columns: repeat(12,1fr);
+  gap: 10px;
+
+}
+.about-box-one{
+    width: 100%;
+     max-height: 250px;
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+    ;
+    grid-column: 1/ span 6;
+}
+.about-box-two{
+    width: 100%;
+    max-height: 250px;
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+
+    grid-column: 7/ span 6;
+}
+.about-box-three{
+    width: 100%;
+    max-height: 250px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    
+    grid-column: 4/ span 6;
+}
+.box-content{
+    padding: 10px 0px 20px 30px;
+    
+}
+
+.icon .fa-hotel{
+color:rgb(61, 144, 17);
+display: block;
+
+font-size: 50px;
+margin:10px 0px 20px 0px; 
+}
+
+.icon .fa-map-location-dot{
+    color:rgb(197, 213, 189);
+    display: block;
+    
+    font-size: 50px;
+    margin:10px 0px 20px 0px; 
+}
+.icon .fa-money-check-dollar{
+    color:rgb(110, 109, 107);
+    display: block;
+    
+    font-size: 50px;
+    margin:10px 0px 20px 0px; 
+}
+
+.content-head{
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-bottom: 30px;
+}
+
+.content-pera{
+    color:black;
+    font-size: 19px;
+    text-transform:lowercase;
+    padding-right: 30px;
+}
+
+
+/* plan info  ************************8*/
+.plan-info{
+   
+    padding: 50px 0px 50px 0px;
+   
+    margin-top: 30px;
+    
+}
+.plan-info-container{
+    display: flex;
+}
+
+.plan-info-video{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.plan-info-video iframe{
+    width: 100%;
+    height: 100%;
+    margin: auto 0px;
+
+}
+
+
+/* news section ********************* */
+.news{
+   
+    padding: 50px 0px;
+}
+
+.news-container{
+    display: flex;
+}
+
+
+.news-box{
+    flex-grow: 3;
+    background: white;
+    padding: 20px;
+    display: flex;
+  
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+    border: 1px solid orangered;
+    border-radius: 16px;
+    
+}
+
+.news-title{
+color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.news-pera{
+    color: #5a5a5db6;
+ padding: 20px 0px;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+hr{background-color:  #5a5a5db6;;
+     height: 1px;
+
+     border: none;
+     margin: 10px 0px;
+}
+
+.news-form input{
+    display: block;
+    width: 100%;
+   padding: 10px 0px;
+    margin: 10px 0px;
+   
+     border: none;
+     background-color: #b5b5b8;
+     outline: none;
+}
+
+.submit-btn{
+    /* display: block; */
+    width: 100%;
+     padding: 10px 0px;
+    color:black;
+    background-color: orangered;
+    border: none;
+    outline: none;
+    font-size: 22px;
+}
+.news-image{
+flex-grow: 5;
+border-radius: 16px;
+padding-left: 20px;
+position: relative;
+}
+
+.offer-tag{
+    position: absolute;
+    width: 200px;
+    padding: 10px 10px;
+    background-color: orangered;
+    text-align: center;
+bottom:13%;
+right:0px;
+transform:rotate(-35.628deg);
+}
+.offer-tag h3{
+    color: #FFF;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.offer-tag h6{
+    color: #FFF;
+
+font-family: Mulish;
+font-size:25px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.news-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+
+
+
+
+
+
+
+/* foooter  */
+
+footer{
+    background-color: rgb(12, 1, 1);
+    padding: 50px 0px;
+}  
+
+
+.footer-container{
+    max-width: 1050px;
+  
+    margin: 0px auto;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vacation-text{
+    color:white;
+}
+.vecation-pera{
+    padding: 20px 0px;
+    color: #b6b6bfc9;
+ 
+ padding: 10px;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.hr-div hr{
+    background-color: rgba(167, 155, 155, 0.425);
+    height: 1px ;
+}
+
+.footer-icon{
+     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    
+  
+    
+}
+
+.footer-icon .fa-brands{
+    padding:10px 15px ;
+  
+    background: rgba(192, 192, 183, 0.688);
+    margin: 0px 2px ;
+    border-radius: 6px;
+}
+.footer-icon  .fa-facebook-f{
+    color:blue;
+}
+.footer-icon  .fa-twitter{
+    color:blue;
+}
+.footer-icon  .fa-instagram{
+    color: #d546c2
+}
+.footer-icon  .fa-github{
+    color:gainsboro;
+}
+hr{
+    background-color: rgba(198, 198, 197, 0.832);
+    height: 1px ;
+    border: none;
+}
+
+.lower-content{
+    
+    width: 300px;
+    margin: 0px auto;
+}
+
+.footer-copyright{
+    text-align: center;
+    color: #131318;
+
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+/* meadi query    600px ********************** */
+
+
+
+
+
+
+
+/* sport section */
+.sport-container{
+        display: grid; 
+        grid-template-columns: repeat(2 ,1fr);
+        gap: 10px;
+}
+
+.sport-box{
+  
+    display: flex;
+   justify-content: space-between;
+    border: 1px solid rgba(128, 128, 128, 0.442);
+   
+    height:250px;
+    border-radius: 15px;
+    
+
+ 
+}
+
+.sport-img{
+    width:100%;
+    height: 100%;
+
+}
+.sport-img img{
+    width:100%;
+    height:100%;
+    border-radius: 15px;
+}
+
+
+.sport-content{
+ 
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+   
+}
+
+.sport-icon{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.sport-icon .fa-location-dot{
+    color:gold;
+    font-size: 18px;
+}
+.sport-icon .fa-ticket{
+    color:rgba(237, 231, 193, 0.839);
+    font-size: 18px;
+
+}
+
+
+.sport-text{
+    background-color: rgba(39, 60, 60, 0.445);
+    padding: 0px 5px;
+    margin-bottom: 5px;
+}
+.sport-text h2{
+font-size: 22px ;
+color:white;
+padding: 10px 0px;
+font-weight: 400px;
+;
+}
+.sport-text p{
+    font-size: 16px ;
+    color:rgb(12, 20, 20);
+    font-weight: 300px;
+    ;
+}
+
+.sport-price{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #b5b5b833;
+    padding: 20px 5px;
+    margin-top: 10px;
+
+
+}
+
+.sport-price .now{
+    color:black;
+    font-size: 19px;
+    text-transform: capitalize;
+    font-weight: 300px;
+   
+}
+.doller{
+    color:goldenrod;
+}
+.sport-price .price{
+    color:orangered;
+    font-size: 19px;
+    text-transform: capitalize;
+    font-weight: 300px;
+}
+.sport-price .prev{
+    color:rgb(166, 171, 239);
+    font-size: 19px;
+    text-transform: capitalize;
+    font-weight: 300px;
+   
+}
+.sport-price .less{
+    color:rgb(152, 7, 7);
+    font-size: 19px;
+    text-transform: capitalize;
+    font-weight: 300px;
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+@media screen  and (max-width:600px){
+    .banner,.booking-container,.plan-summary-container,.plan-info-container,.news-container{
+        flex-direction: column;
+        padding:5px;
+    }
+    main,.header{
+        padding: 0px 10px;
+    }
+
+    .banner-title{
+        font-size: 25px;
+        padding: 10pxs;
+    }
+    .banner-content{
+  background-color: transparent;
+  border: none;
+    }
+
+    .booking-container {
+        padding: 10px 20px;
+    }
+    .booking-container .book{
+        margin: 5px 0px;
+       
+       width: 300px;
+       
+       
+    }
+    
+    
+    .vacation{
+        padding-left:10px;
+      
+    }
+    nav{
+        padding: 10px 0px;
+        margin: 10px 0pxpx;
+    }
+    nav ul li{
+         display: none;
+    }
+    .ham-burg{
+        display:block;
+       
+    }
+    .ham-burg .fa-bars{
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    .destination-title{
+        font-size: 22px;
+    }
+    .plan-summary-content{
+        margin-bottom: 20px;
+    }
+
+    .image-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .box1,.box2,.box3,.box4,.box5,.box6,.box7{
+        grid-column: 1/ span 12;
+        column-gap: 0px;
+    }
+  
+   
+    /* about */
+
+    .about-box-one {
+        grid-column: 1/ span 13;
+    }
+    .about-box-two{
+        grid-column: 1/ span 13;  
+    }
+    .about-box-three{
+        grid-column: 1/ span 13;  
+    }
+    .icon .fa-hotel,  .icon .fa-map-location-dot,  .icon .fa-money-check-dollar{
+        font-size: 40px;
+        margin: 20px 0px; 
+    } 
+    .content-head{
+        padding: 10px 0px;
+    }
+
+
+    /* news  */
+    .news-box{
+        padding-bottom: 20px;
+    }
+    .news-image{
+         margin-top: 10px;
+        padding-left: 0px;
+        }
+
+        .offer-tag{
+         
+            width: 150px;
+            padding: 10px 10px;
+           
+        bottom:20%;
+        right:0px;
+        transform:rotate(-35.628deg);
+        }
+        .offer-tag h3{
+            font-size: 10px;
+        }
+        .offer-tag h6{
+            font-size: 16px;
+        }
+
+
+        /* spor section */
+
+        .sport-container{
+            grid-template-columns: repeat(1,1fr);
+        }
+        .sport-box{
+            flex-direction: column;
+            height:100%;
+        }
+
+
+    
+}
